@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: "Noto Sans KR", sans-serif;
+    font-synthesis: none;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    background: #f5f6f8;
+  }
+
+  button {
+    cursor: pointer;
+  }
+}
+
+.chart-axis {
+  fill: #98a0ae;
+  font: 500 11px "Noto Sans KR", sans-serif;
+}
+
+.chart-label {
+  fill: #697386;
+  font: 600 10px "Noto Sans KR", sans-serif;
+}
+
+.tooltip-title {
+  fill: white;
+  font: 700 12px "Noto Sans KR", sans-serif;
+}
+
+.tooltip-label {
+  fill: #b9c1cf;
+  font: 500 10px "Noto Sans KR", sans-serif;
+}
+
+.tooltip-value {
+  fill: white;
+  font: 700 10px "Noto Sans KR", sans-serif;
+}
